@@ -1,6 +1,9 @@
 # Git Commands Cheat Sheet
 
+This cheat sheet contains the only Git commands you need to know to manage your repositories efficiently.
+
 ## 1. Core Commands
+
 - `git init`: Initialize a new Git repository.
 - `git clone`: Clone a repository into a new directory.
 - `git add`: Add files to the staging area.
@@ -16,6 +19,7 @@
 - `git pull`: Fetch and merge changes from a remote repository.
 
 ## 2. Branching Commands
+
 - `git branch`: List, create, or delete branches.
 - `git checkout -b`: Create and switch to a new branch.
 - `git merge`: Merge branches.
@@ -25,10 +29,12 @@
 - `git cherry-pick`: Apply the changes from a specific commit.
 
 ## 3. Merging Commands
+
 - `git merge`: Merge branches.
 - `git rebase`: Reapply commits on top of another base.
 
 ## 4. Stashing Commands
+
 - `git stash`: Save changes temporarily.
 - `git stash pop`: Apply and remove the most recent stash.
 - `git stash list`: List all stashes.
@@ -36,6 +42,7 @@
 - `git stash drop`: Remove a specific stash.
 
 ## 5. Remote Commands
+
 - `git remote`: Manage remote repositories.
 - `git remote add`: Add a new remote.
 - `git remote remove`: Remove a remote.
@@ -45,11 +52,13 @@
 - `git clone --mirror`: Create a mirror of a repository.
 
 ## 6. Configuration Commands
+
 - `git config`: Get and set configuration variables.
 - `git global config`: Configure Git globally.
 - `git reset config`: Reset configuration values.
 
 ## 7. Plumbing Commands
+
 - `git cat-file`: Provide content or type of an object.
 - `git checkout-index`: Copy files from the index.
 - `git commit-tree`: Create a new commit object.
@@ -68,6 +77,7 @@
 - `git update-ref`: Update a reference.
 
 ## 8. Porcelain Commands
+
 - `git blame`: Show who changed what and when.
 - `git bisect`: Find the commit that introduced a bug.
 - `git checkout`: Switch branches or restore files.
@@ -84,8 +94,9 @@
 - `git tag`: Create, list, or delete tags.
 
 ## 9. Alias Commands
+
 - `git config --global alias.<alias> <command>`: Create a custom Git alias.
 
 ## 10. Hook Commands
-- `git config --local core.hooksPath <path>`: Set a custom path for Git hooks.
 
+- `git config --local core.hooksPath <path>`: Set a custom path for Git hooks.
